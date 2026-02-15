@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /*Inicio*/
+=======
+>>>>>>> e46e9ffc83f709ce2e39633dbd1e993f9222f1bd
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -32,7 +35,11 @@ header {
 }
 
 header img {
+<<<<<<< HEAD
     height: 100px;
+=======
+    height: 60px;
+>>>>>>> e46e9ffc83f709ce2e39633dbd1e993f9222f1bd
 }
 
 nav a {
@@ -193,6 +200,7 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
+<<<<<<< HEAD
 }
 
 /*Tienda*/
@@ -987,3 +995,6 @@ footer {
 }
 
 
+=======
+}
+>>>>>>> e46e9ffc83f709ce2e39633dbd1e993f9222f1bd
