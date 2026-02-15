@@ -1,0 +1,989 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Inicio*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #00ccff;
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.servicios {
+    padding: 50px;
+    text-align: center;
+}
+
+.servicios h2 {
+    font-size: 2rem;
+    color: #0077ff;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.servicios-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.servicio-card {
+    background-color: #d4f8d4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+}
+
+.servicio-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.servicio-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-servicio {
+    display: inline-block;
+    background-color: #00aa55;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-servicio:hover {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #0077ff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.btn-ir-tienda {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #0077ff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.btn-ir-tienda:hover {
+    background-color: #005fcc;
+}
+
+.servicios-info {
+    padding: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.servicios-info h2 {
+    font-size: 2rem;
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.intro-servicio {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.info-servicios-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-servicios-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.info-servicios-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info-servicios-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #0077ff;
+}
+
+.info-servicios-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Tienda*/
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.tienda {
+    padding: 50px;
+    text-align: center;
+}
+
+.tienda h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.tienda-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.tienda-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tienda-card {
+    width: 280px;
+    background-color: #d4f8d4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tienda-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tienda-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-tienda {
+    display: inline-block;
+    background-color: #00aa55;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-tienda:hover {
+    background-color: #008844;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Servicios*/
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.servicios-pagina {
+    padding: 50px;
+    text-align: center;
+}
+
+.servicios-pagina h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.servicios-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.servicios-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.servicio-box {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.servicio-box img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.servicio-box h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #0077ff;
+}
+
+.servicio-box p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.btn-servicio {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #00aa55;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-servicio:hover {
+    background-color: #008844;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Mi cuenta*/
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.micuenta {
+    padding: 50px;
+    text-align: center;
+}
+
+.micuenta h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.micuenta-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.micuenta-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/*Formulario Mi Cuenta*/
+.micuenta-form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.micuenta-form h2 {
+    color: #0077ff;
+    margin-bottom: 15px;
+}
+
+.micuenta-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.micuenta-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.micuenta-form button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0077ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.micuenta-form button:hover {
+    background-color: #005fcc;
+}
+
+.micuenta-extra {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.micuenta-extra a {
+    color: #0077ff;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Blog*/
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.blog {
+    padding: 50px;
+    text-align: center;
+}
+
+.blog h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.blog-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.blog-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #0077ff;
+}
+
+.blog-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.btn-blog {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-blog:hover {
+    background-color: #005fcc;
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.blog {
+    padding: 50px;
+    text-align: center;
+}
+
+.blog h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.blog-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.blog-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #0077ff;
+}
+
+.blog-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.btn-blog {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-blog:hover {
+    background-color: #005fcc;
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.blog {
+    padding: 50px;
+    text-align: center;
+}
+
+.blog h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.blog-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.blog-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #0077ff;
+}
+
+.blog-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.btn-blog {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-blog:hover {
+    background-color: #005fcc;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Blog*/
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+.blog {
+    padding: 50px;
+    text-align: center;
+}
+
+.blog h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.blog-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.blog-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-card h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #0077ff;
+}
+
+.blog-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.btn-blog {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-blog:hover {
+    background-color: #005fcc;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Contacto*/
+header {
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+.contacto {
+    padding: 50px;
+    text-align: center;
+}
+
+.contacto h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+}
+
+.contacto p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contacto-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Información */
+.contacto-info {
+    background-color: #f0f0f0;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contacto-info h2 {
+    color: #0077ff;
+}
+
+/* Formulario */
+.contacto-form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contacto-form h2 {
+    color: #0077ff;
+}
+
+.contacto-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contacto-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contacto-form button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contacto-form button:hover {
+    background-color: #005fcc;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.contacto-mapa {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contacto-mapa iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.contacto-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contacto-info,
+.contacto-form,
+.contacto-mapa {
+    width: 350px;
+}
+
+.contacto-mapa iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    display: block;
+}
+
+
