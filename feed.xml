@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>TechnoMiguel - Noticias y Actualizaciones</title>
+    <link>https://miguelvegacabrera33.github.io/LND_Proyecto/</link>
+    <description>Últimas novedades, servicios y actualizaciones de TechnoMiguel.</description>
+    <language>es-es</language>
+
+    <item>
+      <title>Nueva sección de servicios añadida</title>
+      <link>https://miguelvegacabrera33.github.io/LND_Proyecto/paginas/servicios.html</link>
+      <description>Hemos ampliado la sección de servicios con nuevas opciones de soporte técnico.</description>
+    </item>
+
+    <item>
+      <title>Actualización de la tienda online</title>
+      <link>https://miguelvegacabrera33.github.io/LND_Proyecto/paginas/tienda.html</link>
+      <description>Ya puedes comprar servicios como consultoría informática y cableado RJ45.</description>
+    </item>
+
+    <item>
+      <title>Mejoras en el diseño responsive</title>
+      <link>https://miguelvegacabrera33.github.io/LND_Proyecto/</link>
+      <description>La web ahora se adapta mejor a móviles y tablets.</description>
+    </item>
+
+  </channel>
+</rss>
